@@ -822,6 +822,22 @@ body {
   .slick-prev {
     right: 40px;
   }
+  .slick-dots {
+    margin-top: 82px;
+    list-style: none;
+    display: flex !important;
+    align-items: center;
+    transform: translateY(-50%);
+  }
+  .slick-dots button {
+    width: 10px;
+    height: 10px;
+  }
+  .slick-active button {
+    width: 30px !important;
+    background-color: #f53855;
+    transition: all 0.2s linear;
+  }
 }
 .subscribe-container {
   display: flex;
@@ -891,6 +907,12 @@ body {
     font-size: 12px;
     text-align: center;
     margin-bottom: 10px;
+  }
+  .subscribe-button {
+    text-align: center;
+  }
+  .subscribe-button a {
+    text-align: center;
   }
 }
 .footer {
