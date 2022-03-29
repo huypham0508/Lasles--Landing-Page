@@ -881,6 +881,7 @@ body {
   }
   .subscribe-container {
     flex-direction: column;
+    transform: translateY(-20%);
   }
   .subscribe-heading {
     text-align: center;
