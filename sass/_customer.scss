@@ -177,5 +177,21 @@
     &-prev {
       right: 40px;
     }
+    &-dots {
+      margin-top: 82px;
+      list-style: none;
+      display: flex !important;
+      align-items: center;
+      transform: translateY(-50%);
+      button {
+        width: 10px;
+        height: 10px;
+      }
+    }
+    &-active button {
+      width: 30px !important;
+      background-color: $orange-f5;
+      transition: all 0.2s linear;
+    }
   }
 }
