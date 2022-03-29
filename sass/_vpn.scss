@@ -1,0 +1,79 @@
+.vpn {
+  margin-bottom: 50px;
+  &-container {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 35px;
+  }
+  &-heading {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    text-align: center;
+    color: $black-0b;
+    max-width: 383px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+  }
+  &-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: $black-4f;
+    margin-bottom: 155px;
+    span {
+      font-weight: 500;
+    }
+  }
+  &-parners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  img {
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1023.98px) {
+  .vpn {
+    &-images {
+      width: 80%;
+      display: inline-block;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .vpn {
+    &-heading {
+      font-size: 25px;
+    }
+    &-desc {
+      max-width: 250px;
+      width: 100%;
+      font-size: 12px;
+      margin: 0 auto 20px;
+    }
+    &-images {
+      width: 70%;
+    }
+    &-parners {
+      flex-direction: column;
+      img {
+        width: 50%;
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
